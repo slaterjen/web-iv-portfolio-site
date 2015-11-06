@@ -294,7 +294,15 @@ a:active {
           transition: width 0.3s ease;
 }
 
-	
+/* ------------------- 
+ PROJECT PAGE
+-------------------- */
+.project-img-margin {
+	margin: 0 10em 15em 10em;
+	}
+.nxt-prjt-padding {
+	padding:0;
+	}
 // Small screens
 @media only screen { } /* Define mobile styles */
 
@@ -332,6 +340,9 @@ a:active {
   right: 60px;
   z-index: 1;
 }
+.project-img-margin {
+	margin:0;
+	}
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
 // Medium screens
