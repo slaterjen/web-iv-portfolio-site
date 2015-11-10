@@ -303,6 +303,15 @@ a:active {
 .nxt-prjt-padding {
 	padding:0;
 	}
+.copy-margin {
+	margin-left: 10rem;
+	}
+footer {
+	margin-top:10rem;
+	}
+.nxt-project-img-margin {
+	margin-top: 25rem;
+	}
 // Small screens
 @media only screen { } /* Define mobile styles */
 
