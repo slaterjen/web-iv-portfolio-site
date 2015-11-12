@@ -39,6 +39,12 @@ a img { /*Nav*/
 	left: 60px;
 	top: 75px;
 	}
+.nxt-prjt-hide-large {
+	display:none;
+	}
+.next-prjt-hide-small {
+	display:none;
+	}
 /* Full Screen Menu */
 .flex-center {
   display: -webkit-box;
@@ -304,7 +310,7 @@ a:active {
 	padding:0;
 	}
 .copy-margin {
-	margin-left: 10rem;
+	margin-left: 2rem;
 	}
 footer {
 	margin-top:10rem;
@@ -312,6 +318,15 @@ footer {
 .nxt-project-img-margin {
 	margin-top: 25rem;
 	}
+#about-title {
+	margin-left: 2rem;
+	}
+a {
+	font-size:inherit;
+	font-family: inherit;
+	}
+	
+	]
 // Small screens
 @media only screen { } /* Define mobile styles */
 
@@ -347,7 +362,13 @@ footer {
   position: fixed;
   top: 0;
   right: 60px;
-  z-index: 1;
+  z-index: 1;}
+  .copy-margin {
+	margin-left: 2rem;
+	}
+	.nxt-prjt-hide-large {
+	display:inherit;
+	}
 }
 .project-img-margin {
 	margin:0;
