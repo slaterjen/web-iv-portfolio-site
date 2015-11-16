@@ -46,7 +46,7 @@ a {
 /* ------------------- 
 01.	NAVIGATION
 -------------------- */
-a img { 
+a img {
 	position: fixed;
 }
 #logo-position {
@@ -58,7 +58,7 @@ a img {
 02.	MARGINS
 -------------------- */
 .project-margin {
-	margin-bottom: 18.750em;
+	margin-bottom: 15em;
 }
 .copy-margin {
 	margin-left: 2rem;
@@ -69,9 +69,9 @@ a img {
 /* ------------------- 
 03. PROJECT PAGE
 -------------------- */
-.project-img-margin {
+/*.project-img-margin {
 	margin: 0 10em 15em 10em;
-}
+}*/
 .next-project-padding {
 	padding: 0;
 }
@@ -89,6 +89,9 @@ a img {
 -------------------- */
 #about-title {
 	margin-left: 2rem;
+}
+.contact-space {
+	margin: 20rem auto;
 }
 /* ------------------- 
 05. FOOTER
@@ -347,8 +350,7 @@ a, a:visited, a:hover, a:active {
 	-webkit-transition: width 0.3s ease;
 	transition: width 0.3s ease;
 }
- ] 
- /* ------------------- 
+ ]  /* ------------------- 
 07.	MEDIA QUERIES
 -------------------- */
  /*Small screens*/ @media only screen {
@@ -394,17 +396,16 @@ h2 {
 .nxt-prjt-hide-large {
 	display: inherit;
 }
+.contact-space {
+	margin: 10rem auto;
 }
 .project-img-margin {
 	margin: 0;
 }
-} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
-/* Medium screens*/ @media only screen and (min-width: 40.063em) {
-
-} /* min-width 641px, medium screens */
+}
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-	h2 {
+h2 {
 	font-size: 3rem;
 	top: 500px;
 	left: 20px;
@@ -418,16 +419,4 @@ h2 {
 	top: 70px;
 	left: 5px;
 }
-} /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
- /*Large screens*/ @media only screen and (min-width: 64.063em) {
-} /* min-width 1025px, large screens */
-
-@media only screen and (min-width: 64.063em) and (max-width: 90em) {
-} /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
-/* XLarge screens*/ @media only screen and (min-width: 90.063em) {
-} /* min-width 1441px, xlarge screens */
-
-@media only screen and (min-width: 90.063em) and (max-width: 120em) {
-} /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
-/* XXLarge screens*/ @media only screen and (min-width: 120.063em) {
-} /* min-width 1921px, xxlarge screens */
+}
