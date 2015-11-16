@@ -1,18 +1,29 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.wrapper {
-	margin-bottom: 12.5em;
-}
+/* TABLE OF CONTENTS 
+
+00. TYPOGRAPHY
+01. NAVIGATION
+02. MARGINS
+03. PROJECT PAGE
+04. ABOUT PAGE
+05. FOOTER
+06. FULL SCREEN MENU
+07. MEDIA QUERIES 
+
+*/
+
+
+/* ------------------- 
+ 00. TYPOGRAPHY
+-------------------- */
 body {
 	font-size: 2rem;
 }
 * {
 	font-size: 1rem;
 }
-/* ------------------- 
- TYPOGRAPHY
--------------------- */
 h1 {
 	font-size: 4rem;
 	margin-left: 10rem;
@@ -32,7 +43,10 @@ a {
 	font-size: inherit;
 	font-family: inherit;
 }
-a img { /*Nav*/
+/* ------------------- 
+01.	NAVIGATION
+-------------------- */
+a img { 
 	position: fixed;
 }
 #logo-position {
@@ -41,7 +55,7 @@ a img { /*Nav*/
 	top: 75px;
 }
 /* ------------------- 
-	MARGINS
+02.	MARGINS
 -------------------- */
 .project-margin {
 	margin-bottom: 18.750em;
@@ -49,38 +63,41 @@ a img { /*Nav*/
 .copy-margin {
 	margin-left: 2rem;
 }
+.wrapper {
+	margin-bottom: 12.5em;
+}
 /* ------------------- 
- PROJECT PAGE
+03. PROJECT PAGE
 -------------------- */
 .project-img-margin {
 	margin: 0 10em 15em 10em;
 }
-.nxt-prjt-padding {
+.next-project-padding {
 	padding: 0;
 }
-.nxt-project-img-margin {
+.next-project-img-margin {
 	margin-top: 25rem;
 }
-.nxt-prjt-hide-large {
+.next-project-hide-large {
 	display: none;
 }
-.next-prjt-hide-small {
+.next-project-hide-small {
 	display: none;
 }
 /* ------------------- 
- ABOUT PAGE
+04. ABOUT PAGE
 -------------------- */
 #about-title {
 	margin-left: 2rem;
 }
 /* ------------------- 
- FOOTER
+05. FOOTER
 -------------------- */
 footer {
 	margin-top: 10rem;
 }
 /*------------------- 
-FULL SCREEN MENU
+06. FULL SCREEN MENU
 ----------------------*/
 .flex-center {
 	display: -webkit-box;
@@ -330,7 +347,11 @@ a, a:visited, a:hover, a:active {
 	-webkit-transition: width 0.3s ease;
 	transition: width 0.3s ease;
 }
- ] /*Small screens*/ @media only screen {
+ ] 
+ /* ------------------- 
+07.	MEDIA QUERIES
+-------------------- */
+ /*Small screens*/ @media only screen {
 } /* Define mobile styles */
 
 @media only screen and (max-width: 40em) {
