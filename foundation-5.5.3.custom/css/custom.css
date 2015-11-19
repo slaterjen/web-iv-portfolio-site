@@ -350,7 +350,7 @@ a, a:visited, a:hover, a:active {
 	-webkit-transition: width 0.3s ease;
 	transition: width 0.3s ease;
 }
- ]  /* ------------------- 
+ /* ------------------- 
 07.	MEDIA QUERIES
 -------------------- */
  /*Small screens*/ @media only screen {
