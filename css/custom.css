@@ -23,6 +23,7 @@ body {
 }
 * {
 	font-size: 1rem;
+	font-family: "kepler-std-extended-display",serif;
 }
 h1 {
 	font-size: 4rem;
@@ -30,7 +31,10 @@ h1 {
 	margin-top: 25rem;
 }
 h2 {
+	font-family: 'Pathway Gothic One', sans-serif;
 	font-size: 3rem;
+	text-transform:uppercase;
+	letter-spacing: 10px;
 	position: absolute;
 	top: 50px;
 	left: -65px;
@@ -99,6 +103,10 @@ a img {
 footer {
 	margin-top: 10rem;
 }
+/* -- IMAGES--*/
+.image-jav:hover {
+	background-image:url(../img/project-jav-color.jpg);
+	}
 /*------------------- 
 06. FULL SCREEN MENU
 ----------------------*/
