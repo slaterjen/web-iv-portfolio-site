@@ -21,11 +21,16 @@
 body {
 	font-size: 2rem;
 }
+p {
+	font-family: "kepler-std-semicondensed", serif;
+	}
 * {
 	font-size: 1rem;
-	font-family: "kepler-std-extended-display",serif;
 }
 h1 {
+	font-family: "kepler-std-semicondensed", serif;
+	letter-spacing: 5px;
+	font-style:italic;
 	font-size: 4rem;
 	margin-left: 10rem;
 	margin-top: 25rem;
@@ -47,12 +52,13 @@ a {
 	font-size: inherit;
 	font-family: inherit;
 }
+.all-caps {
+	text-transform: uppercase;
+	}
 /* ------------------- 
 01.	NAVIGATION
 -------------------- */
-a img {
-	position: fixed;
-}
+
 #logo-position {
 	position: fixed;
 	left: 60px;
@@ -104,8 +110,8 @@ footer {
 	margin-top: 10rem;
 }
 /* -- IMAGES--*/
-.image-jav:hover {
-	background-image:url(../img/project-jav-color.jpg);
+#jav:hover {
+	content: url(../img/project-jav-color.jpg);
 	}
 /*------------------- 
 06. FULL SCREEN MENU
