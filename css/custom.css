@@ -113,6 +113,15 @@ footer {
 #jav:hover {
 	content: url(../img/project-jav-color.jpg);
 	}
+#black-market-img:hover {
+	content: url(../img/Blk-mrkt-color.jpg); 
+	}
+#bread-and-cup-img:hover {
+	content: url(../img/bread-and-cup-color.jpg);
+	}
+#loreal-img:hover {
+	content: url(../img/loreal-color.jpg); 
+	}
 /*------------------- 
 06. FULL SCREEN MENU
 ----------------------*/
