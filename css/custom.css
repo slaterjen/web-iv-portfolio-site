@@ -31,6 +31,7 @@ h1 {
 	font-family: "kepler-std-semicondensed", serif;
 	letter-spacing: 5px;
 	font-style:italic;
+	text-transform:uppercase;
 	font-size: 4rem;
 	margin-left: 10rem;
 	margin-top: 25rem;
@@ -121,6 +122,12 @@ footer {
 	}
 #loreal-img:hover {
 	content: url(../img/loreal-color.jpg); 
+	}
+#crete-img:hover {
+	content: url(../img/crete-color.jpg);
+	}
+#mainstreet-img:hover {
+	content: url(../img/mainstreet-color.jpg);
 	}
 /*------------------- 
 06. FULL SCREEN MENU
