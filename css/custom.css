@@ -44,10 +44,11 @@ h2 {
 	position: absolute;
 	top: 50px;
 	left: -65px;
+	z-index:2;
 }
 .right-title {
 	top: 50px;
-	left: 400px;
+	left: 450px;
 }
 a {
 	font-size: inherit;
@@ -55,6 +56,12 @@ a {
 }
 .all-caps {
 	text-transform: uppercase;
+	}
+.sub-title {
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size:2.5rem;
+	letter-spacing: 5px;
+	text-transform:uppercase;
 	}
 /* ------------------- 
 01.	NAVIGATION
@@ -64,6 +71,7 @@ a {
 	position: fixed;
 	left: 60px;
 	top: 75px;
+	z-index:3;
 }
 /* ------------------- 
 02.	MARGINS
@@ -89,12 +97,12 @@ a {
 .next-project-img-margin {
 	margin-top: 25rem;
 }
-.next-project-hide-large {
+/*.next-project-hide-large {
 	display: none;
 }
 .next-project-hide-small {
 	display: none;
-}
+}*/
 /* ------------------- 
 04. ABOUT PAGE
 -------------------- */
@@ -111,24 +119,23 @@ footer {
 	margin-top: 10rem;
 }
 /* -- IMAGES--*/
-#jav:hover {
-	content: url(../img/project-jav-color.jpg);
+img {
+	z-index: 1;
 	}
-#black-market-img:hover {
-	content: url(../img/Blk-mrkt-color.jpg); 
-	}
-#bread-and-cup-img:hover {
-	content: url(../img/bread-and-cup-color.jpg);
-	}
-#loreal-img:hover {
-	content: url(../img/loreal-color.jpg); 
-	}
-#crete-img:hover {
-	content: url(../img/crete-color.jpg);
-	}
-#mainstreet-img:hover {
-	content: url(../img/mainstreet-color.jpg);
-	}
+.home-img {
+-webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+.next-img {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+
+img:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
 /*------------------- 
 06. FULL SCREEN MENU
 ----------------------*/
@@ -384,6 +391,20 @@ a, a:visited, a:hover, a:active {
 07.	MEDIA QUERIES
 -------------------- */
  /*Small screens*/ @media only screen {
+	 #small-smartkart-title {
+	font-size: 2.5rem;
+	top: 170px;
+	left: 20px;
+}
+h2 {
+	font-size: 2.5rem;
+	top: 300px;
+	left: 20px;
+}
+.right-title {
+	top: 150px;
+	left: 5px;
+}
 } /* Define mobile styles */
 
 @media only screen and (max-width: 40em) {
@@ -392,19 +413,15 @@ h1 {
 	margin-left: 2rem;
 	margin-top: 0;
 }
-h2 {
-	font-size: 3rem;
-	top: 300px;
-	left: 20px;
-}
 .p-small-position {
 	position: relative;
 	top: 100px;
 	left: 20px;
 }
-.right-title {
-	top: 300px;
-	left: 5px;
+#small-smartkart-title {
+	font-size: 2.5rem;
+	top: 170px;
+	left: 20px;
 }
 .project-margin {
 	margin-bottom: 10em;
@@ -437,8 +454,8 @@ h2 {
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
 h2 {
 	font-size: 3rem;
-	top: 500px;
-	left: 20px;
+	top: 460px;
+	left: 10px;
 }
 .p-small-position {
 	position: relative;
@@ -446,7 +463,20 @@ h2 {
 	left: 20px;
 }
 .right-title {
+	top: 280px;
+	left: 20px;
+}
+#small-smartkart-title {
+	font-size: 3rem;
+	top: 385px;
+	left: 10px;
+}
+}
+/* XLarge screens*/
+@media only screen and (min-width: 90.063em) { 
+h2 {
+	font-size: 2.5rem;
 	top: 70px;
-	left: 5px;
+	left: -180px;
 }
-}
+} 
