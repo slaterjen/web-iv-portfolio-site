@@ -33,8 +33,7 @@ h1 {
 	font-style:italic;
 	text-transform:uppercase;
 	font-size: 4rem;
-	margin-left: 10rem;
-	margin-top: 25rem;
+
 }
 h2 {
 	font-family: 'Pathway Gothic One', sans-serif;
@@ -46,6 +45,10 @@ h2 {
 	left: -65px;
 	z-index:2;
 }
+#home-quote {
+	margin-left: 10rem;
+	margin-top: 25rem;
+	}
 .right-title {
 	top: 50px;
 	left: 450px;
@@ -85,6 +88,9 @@ a {
 .wrapper {
 	margin-bottom: 12.5em;
 }
+#wine-img-margin {
+	margin-bottom: 15rem;
+	}
 /* ------------------- 
 03. PROJECT PAGE
 -------------------- */
@@ -399,15 +405,19 @@ a, a:visited, a:hover, a:active {
 @media only screen and (max-width: 40em) {
 
 h1 {
-	font-size: 3rem;
-	margin-left: 2rem;
+	font-size: 2.4rem;
+	margin-left: 1rem;
 	margin-top: 0;
 }
 h2 {
-	font-size: 2.5rem;
+	font-size: 2rem;
 	top: 290px;
 	left: 20px;
 }
+#home-quote {
+	margin-left: 1.5rem;
+	margin-top: 0;
+	}
 .p-small-position {
 	position: relative;
 	top: 100px;
@@ -425,6 +435,12 @@ h2 {
 	left: 0;
 	top: 0;
 }
+.sub-title {
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size:1.4rem;
+	letter-spacing: 5px;
+	text-transform:uppercase;
+	}
 .outer-menu {
 	position: fixed;
 	top: 0;
