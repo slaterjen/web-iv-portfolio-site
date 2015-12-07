@@ -83,7 +83,7 @@ a {
 	margin-bottom: 15em;
 }
 .copy-margin {
-	margin-left: 2rem;
+	margin: 2rem;
 }
 .wrapper {
 	margin-bottom: 12.5em;
@@ -103,12 +103,7 @@ a {
 .next-project-img-margin {
 	margin-top: 25rem;
 }
-/*.next-project-hide-large {
-	display: none;
-}
-.next-project-hide-small {
-	display: none;
-}*/
+
 /* ------------------- 
 04. ABOUT PAGE
 -------------------- */
@@ -118,6 +113,24 @@ a {
 .contact-space {
 	margin: 20rem auto;
 }
+.contact-info {
+	width: 50%;
+	height: 50px;
+	border: 2px solid;
+	}
+.contact-info:hover {
+	width: 50%;
+	height: 50px;
+	background-color:#343535;
+	color: #e0e3e3;
+	}
+.contact-info-paragraph {
+	font-size: 2rem;
+	text-align: center;
+	}
+a:visited {
+	color: #aeadae;
+	}
 /* ------------------- 
 05. FOOTER
 -------------------- */
@@ -161,7 +174,7 @@ img:hover {
 }
 * {
 	box-sizing: border-box;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Pathway Gothic One', sans-serif;
 	font-weight: 300;
 }
 a, a:visited, a:hover, a:active {
@@ -172,13 +185,13 @@ a, a:visited, a:hover, a:active {
 	position: fixed;
 	top: 10vh;
 	right: 130px;
-	z-index: 1;
+	z-index: 3;
 }
 .outer-menu .checkbox-toggle {
 	position: absolute;
 	top: 0;
 	left: 0;
-	z-index: 2;
+	z-index: 3;
 	cursor: pointer;
 	width: 60px;
 	height: 60px;
@@ -202,7 +215,7 @@ a, a:visited, a:hover, a:active {
 	pointer-events: auto;
 }
 .outer-menu .checkbox-toggle:checked ~ .menu > div {
-	width: 200vw;
+	width: 300vw;
 	height: 200vw;
 }
 .outer-menu .checkbox-toggle:checked ~ .menu > div > div {
@@ -229,8 +242,8 @@ a, a:visited, a:hover, a:active {
 	background: rgba(52, 53, 53, 0.73);
 	border-radius: 0 0.12em 0.12em 0;
 	cursor: pointer;
-	-webkit-transition: box-shadow 0.3s ease;
-	transition: box-shadow 0.3s ease;
+	-webkit-transition: opacity 600ms cubic-bezier(0.215,0.61,0.355,1),visibility 0s linear 0s;
+	transition: opacity 600ms cubic-bezier(0.215,0.61,0.355,1),visibility 0s linear 0s;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 	display: -webkit-box;
@@ -255,7 +268,7 @@ a, a:visited, a:hover, a:active {
 	width: 100%;
 	height: 2px;
 	background: #fefefe;
-	-webkit-transition: all 0.3s ease;
+	-webkit-transition: opacity 600ms cubic-bezier(0.215,0.61,0.355,1),visibility 0s linear 0s;
 	transition: all 0.3s ease;
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -279,8 +292,8 @@ a, a:visited, a:hover, a:active {
 	width: 100%;
 	height: 2px;
 	background: inherit;
-	-webkit-transition: all 0.3s ease;
-	transition: all 0.3s ease;
+	-webkit-transition: opacity 600ms cubic-bezier(0.215,0.61,0.355,1),visibility 0s linear 0s;
+	transition: opacity 600ms cubic-bezier(0.215,0.61,0.355,1),visibility 0s linear 0s;
 }
 .outer-menu .hamburger > div:after {
 	top: 10px;
@@ -311,8 +324,8 @@ a, a:visited, a:hover, a:active {
 	color: #fefefe;
 	background: rgba(52, 53, 53, 0.73);
 	border-radius: 50%;
-	-webkit-transition: all 0.3s ease;
-	transition: all 0.3s ease;
+	-webkit-transition: opacity 600ms cubic-bezier(0.215,0.61,0.355,1),visibility 0s linear 0s;
+	transition: opacity 600ms cubic-bezier(0.215,0.61,0.355,1),visibility 0s linear 0s;
 	-webkit-box-flex: 0;
 	-webkit-flex: none;
 	-ms-flex: none;
@@ -335,8 +348,8 @@ a, a:visited, a:hover, a:active {
 	max-width: 90vw;
 	max-height: 100vh;
 	opacity: 0;
-	-webkit-transition: opacity 0.3s ease;
-	transition: opacity 0.3s ease;
+	-webkit-transition: opacity 600ms cubic-bezier(0.215,0.61,0.355,1),visibility 0s linear 0s;
+	transition: opacity 600ms cubic-bezier(0.215,0.61,0.355,1),visibility 0s linear 0s;
 	overflow-y: auto;
 	-webkit-box-flex: 0;
 	-webkit-flex: none;
@@ -372,8 +385,12 @@ a, a:visited, a:hover, a:active {
 	position: relative;
 	display: inline;
 	cursor: pointer;
+	font-family: 'Pathway Gothic One', sans-serif;
+	text-transform:uppercase;
+	letter-spacing: 10px;
 	-webkit-transition: color 0.3s ease;
 	transition: color 0.3s ease;
+	z-index: 5;
 }
 .outer-menu .menu > div > div > ul > li > a:hover {
 	color: #e5e5e5;
