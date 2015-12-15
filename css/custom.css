@@ -8,10 +8,11 @@
 02. MARGINS
 03. PROJECT PAGE
 04. ABOUT PAGE
-05. FOOTER
-06. FULL SCREEN MENU
-07. IMAGES
-08. MEDIA QUERIES 
+05. VIDEO
+06. FOOTER
+07. FULL SCREEN MENU
+08. IMAGES
+09. MEDIA QUERIES 
 
 */
 
@@ -126,6 +127,9 @@ a {
 a:visited {
 	color: #aeadae;
 	}
+/* ------------------- 
+05. VIDEO
+-------------------- */
 .flex-video {
   height: 0;
   margin-bottom: 1rem;
@@ -149,14 +153,14 @@ a:visited {
 
 
 /* ------------------- 
-05. FOOTER
+06. FOOTER
 -------------------- */
 footer {
 	margin-top: 10rem;
 }
 
 /*------------------- 
-06. FULL SCREEN MENU
+07. FULL SCREEN MENU
 ----------------------*/
 .flex-center {
 	display: -webkit-box;
@@ -410,7 +414,7 @@ a, a:visited, a:hover, a:active {
 	transition: width 0.3s ease;
 }
 /* --------- 
-07. IMAGES
+08. IMAGES
 -----------*/
 img {
 	z-index: 1;
@@ -435,13 +439,9 @@ img:hover {
   filter: grayscale(0);
 }
  /* ------------------- 
-08.	MEDIA QUERIES
+09.	MEDIA QUERIES
 -------------------- */
  /*Small screens*/ 
-
- @media only screen {
-	 
-} /* Define mobile styles */
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
